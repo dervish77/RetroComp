@@ -1,0 +1,17 @@
+TODO - RetroComp
+================
+
+- Design backplane interconnect
+
+- Design power supply
+
+- Design CPU board
+
+- Design Video/Keyboard board
+
+- Design Audio board
+
+- Design Serial/GPIO board 
+
+
+
