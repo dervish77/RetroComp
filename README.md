@@ -50,7 +50,7 @@ Repo contents:
 
 ### Backplane Pin Assignments Diagram
 
-![PDF](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Backplane.pdf)
+![Backplane](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane.png?raw=true)
 
 ### HW Block Diagram
 
