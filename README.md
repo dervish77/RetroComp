@@ -46,7 +46,7 @@ Repo contents:
 
 ### System Block Diagram
 
-![system](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-System-Block-Diagram.png?raw=true)
+![System](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-System-Block-Diagram.jpg?raw=true)
 
 ### Backplane Pin Assignments Diagram
 
@@ -54,11 +54,11 @@ TBD
 
 ### HW Block Diagram
 
-![HW](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-HW-Block-Diagram.png?raw=true)
+TBD
 
 ### SW Block Diagram
 
-![SW](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-SW-Block-Diagram.png?raw=true)
+TBD
 
 
 ## Detailed Design
