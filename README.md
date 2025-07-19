@@ -69,9 +69,13 @@ Repo contents:
 
 ![System](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-System-Block-Diagram.jpg?raw=true)
 
-### Backplane Pin Assignments Diagram
+### Traditional Backplane Pin Assignments Diagram
 
-![Backplane](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane.png?raw=true)
+![Backplane Traditional](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-alt-backplane.png?raw=true)
+
+### Modern Backplane Pin Assignments Diagram
+
+![Backplane Modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane.png?raw=true)
 
 ### HW Block Diagram
 
