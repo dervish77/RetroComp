@@ -22,28 +22,45 @@ Repo contents:
   * RetroComp backplane **shall** support a slot for audio output.
   * RetroComp backplane *should* support slots for additional modules such as storage, serial I/O, parallel I/O.
 
-* RetroAV shield **shall** support composite video output in Black&White using single RCA output jack.  
-  * RetroAV **shall** support at least 20 characters by 16 lines of video output. 
-  * RetroAV *should* support at least 40 characters by 24 lines of video output.
-  * RetroAV *should* support color output if possible.
+* RetroComp system **shall** support a CPU module that provides the main processing functions of the system.
+  * CPU module **shall** support a microprocessor based central processing unit.
+  * CPU module **shall** support random access memory for temporary storage of programs and/or data.
+  * CPU module **shall** support read only memory for storing the boot monitor software.
+  * CPU module **shall** support methods for addressing and accessing every slot on the backplane.
 
-* RetroAV shield **shall** support analog audio output using RCA output jack.
-  * RetroAV **shall** support a 1 volt peak to peak output signal.
-  * RetroAV **shall** support at least one "voice" of audio output.
-  * RetroAV *should* support more than one "voice" of audio output if possible.
+* RetroComp system **shall** support a KV module that provides keyboard input and video output.
+  * KV module **shall** support keyboard input via a standard PS2 keyboard input connector.
+  * KV module **shall** support a composite video output interface using a single RCA output jack.
+  * KV module **shall** support at least 20 characters by 16 lines of video output.
+  * KV module *should* support at least 40 characters by 24 lines of video output.
+  * KV module *should* support color video output if possible.
 
-* RetroAV shield **shall** support a serial interface connector as a 4 pin header.
-  * RetroAV **shall** support a UART style serial interface.
-  * RetroAV *should* support an I2C style serial interface.
+* RetroComp system **shall** support an Audio module that provides audio output.
+  * Audio module **shall** support analog audio output using RCA output jack.
+  * Audio module **shall** support a 1 volt peak to peak output signal.
+  * Audio module **shall** support at least one "voice" of audio output.
+  * Audio module *should* support more than one "voice" of audio output if possible.
 
-* RetroAV code library **shall** minimally support a simple text terminal style of interface.
-  * RetroAV **shall** support the standard ascii character set.
-  * RetroAV **shall** support playing an audio tone for the bell character (i.e. control-G).
-  * RetroAV **shall** support interfacing via the Arduino serial monitor (i.e. echo characters to serial monitor).
-  * RetroAV *should* support interfacing via Arduino serial data pins (i.e. uart pins).
+* RetroComp Storage module *should* support a Storage module that provides program and data storage and retrieval.
+  * Storage module **shall** support an EEPROM method of data storage.
+  * Storage module *should* support an SD Card method of data storage.
+
+* RetroComp Serial I/O module *should* support a Serial I/O module that provides serial input and output.
+  * Serial I/O module **shall** support one serial interface connector as a 4 pin header.
+  * Serial I/O module **shall** support a TTL style serial interface.
+  * Serial I/O module *should* support an RS232 style serial interface.
+  * Serial I/O module *should* support at least one additional serial interface. 
+
+* RetroComp Parallel I/O module **shall** support a Parallel I/O module that provides parallel input and output.
+  * Parallel I/O module **shall** support one parallel interface connector as an 8 pin header.
+  * Parallel I/O module *should* support at least one additional connector as an 8 pin header.
 
 * RetroComp code library **shall** support enough software elements to boot up and execute manually entered code.
-  * RetroComp *should* be supportable on variant boards via simple code modifications.
+  * RetroComp **shall** include a boot monitor software to initialize the system and provide basic monitor functions.
+  * RetroComp **shall** include a basic interpreter software to allow for minimal programmability of the system.
+  * RetroComp *should* include assembler software to allow for low level programming of the system.
+  * RetroComp *should* include compiler software to allow for more advanced programming of the system.
+  * RetroComp *should* include disk operating software for managing storage of programs and data.
 
 
 ## High Level Design
