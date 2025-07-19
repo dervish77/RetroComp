@@ -3,11 +3,14 @@ RetroComp Homebrew Computer Design
 
 The RetroComp project specifies a design and implementation for a retro-style homebrew computer.  The design utilizes a backplane/motherboard approach similar in spirit to the old S-100 bus systems.  The backplane design supports some flexibility in the design of plugin modules for support of various kinds of peripherals.
 
+The backplane design under consideration has two flavors - one is a traditional address/data/control signal based design, the other is a more modern approach using serial interfaces such as SPI and I2C for communication between modules.  A final decision on which approach to take has not yet been finalized.
+
 Repo contents:
 
 * docs/          - system design docs, block diagrams, etc
 * hw/            - hardware design files
 * ref/           - reference documents for integrated packages
+* sw/            - software source code
 
 
 ## Requirements
@@ -17,6 +20,7 @@ Repo contents:
   * RetroComp backplane **shall** support a slot for keyboard input.
   * RetroComp backplane **shall** support a slot for video output.
   * RetroComp backplane **shall** support a slot for audio output.
+  * RetroComp backplane *should* support slots for additional modules such as storage, serial I/O, parallel I/O.
 
 * RetroAV shield **shall** support composite video output in Black&White using single RCA output jack.  
   * RetroAV **shall** support at least 20 characters by 16 lines of video output. 
@@ -38,8 +42,8 @@ Repo contents:
   * RetroAV **shall** support interfacing via the Arduino serial monitor (i.e. echo characters to serial monitor).
   * RetroAV *should* support interfacing via Arduino serial data pins (i.e. uart pins).
 
-* RetroAV code library **shall** minimally support a standard Arduino UNO board.
-  * RetroAV *should* be supportable on variant boards via simple code modifications.
+* RetroComp code library **shall** support enough software elements to boot up and execute manually entered code.
+  * RetroComp *should* be supportable on variant boards via simple code modifications.
 
 
 ## High Level Design
@@ -99,27 +103,22 @@ The Parallel I/O module provides support for at least one 8-bit input/output por
 
 ### Software
 
-#### Keyboard Task
+#### Boot Monitor
 
 tbd
 
-#### Video Task
+#### Basic Interpreter
 
 tbd
 
-#### Audio Task
+#### Assembler
 
 tbd
 
-#### Serial Task
+#### C Compiler
 
 tbd
 
-#### UI Manager
+#### Disk Operating System
 
 tbd
-
-#### Arduino Interface
-
-tbd
-
