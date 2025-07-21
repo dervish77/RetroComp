@@ -67,7 +67,7 @@ Repo contents:
 
 ### System Block Diagram
 
-![System](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-System-Block-Diagram.jpg?raw=true)
+![System](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-System-Block-Diagram.png?raw=true)
 
 ### Traditional Backplane Pin Assignments Diagram
 
@@ -79,7 +79,7 @@ Repo contents:
 
 ### HW Block Diagram
 
-TBD
+![CPU](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-CPU-Block-Diagram.png?raw=true)
 
 ### SW Block Diagram
 
