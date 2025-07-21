@@ -15,12 +15,14 @@ Repo contents:
 
 ## Requirements
 
-* RetroComp system **shall** support a backplane with at least four slots.
+* RetroComp system **shall** support a backplane with at least four slots but no more than seven slots.
   * RetroComp backplane **shall** support a dedicated slot for the CPU module (i.e. slot 0).
   * RetroComp backplane **shall** support a slot for keyboard input.
   * RetroComp backplane **shall** support a slot for video output.
   * RetroComp backplane **shall** support a slot for audio output.
   * RetroComp backplane *should* support slots for additional modules such as storage, serial I/O, parallel I/O.
+  * RetroComp backplane **shall** utilize 50 or fewer pins.
+  * RetroComp backplane *should* utilize 40 or fewer pins.
 
 * RetroComp system **shall** support a CPU module that provides the main processing functions of the system.
   * CPU module **shall** support a microprocessor based central processing unit.
@@ -40,10 +42,12 @@ Repo contents:
   * Audio module **shall** support a 1 volt peak to peak output signal.
   * Audio module **shall** support at least one "voice" of audio output.
   * Audio module *should* support more than one "voice" of audio output if possible.
+  * Audio module *should* support a direct speaker connection (i.e. powered audio output) for an 8 ohm speaker.
 
 * RetroComp Storage module *should* support a Storage module that provides program and data storage and retrieval.
   * Storage module **shall** support an EEPROM method of data storage.
   * Storage module *should* support an SD Card method of data storage.
+  * Storage module *should* support a method for connecting an external storage device such as USB, IDE, or similar media.
 
 * RetroComp Serial I/O module *should* support a Serial I/O module that provides serial input and output.
   * Serial I/O module **shall** support one serial interface connector as a 4 pin header.
@@ -79,7 +83,7 @@ Repo contents:
 
 ### HW Block Diagram
 
-![CPU](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-CPU-Block-Diagram.png?raw=true)
+![CPU modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-CPU-Block-Diagram.png?raw=true)
 
 ### SW Block Diagram
 
