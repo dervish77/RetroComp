@@ -3,7 +3,7 @@ Retro Homebrew Computer Design
 
 The RetroComp project specifies a design and implementation for a retro-style homebrew computer.  The design utilizes a backplane/motherboard approach similar in spirit to the old S-100 bus systems.  The backplane design supports some flexibility in the design of plugin modules for support of various kinds of peripherals.
 
-The backplane design under consideration has two flavors - one is a traditional address/data/control signal based design, the other is a more modern approach using serial interfaces such as SPI and I2C for communication between modules.  A final decision on which approach to take has not yet been finalized.  Under the traditional base design, address and data lines would connect to all backplane slots.  Under the modern design, slots 1, 2, 3 would have SPI and I2C connections, where slots 4, 5, 6, would have only I2C connections.
+The backplane design under consideration has two flavors - one is a traditional address/data/control signal based design, the other is a more modern approach using serial interfaces such as SPI and I2C for communication between modules.  Under the traditional base design, address and data lines would connect to all backplane slots.  Under the modern design, slots 1, 2, 3 would have SPI and I2C connections, where slots 4, 5, 6, would have only I2C connections.  A final decision on which approach to take has not yet been finalized (though the intent is to go with the modern approach).
 
 Repo contents:
 
