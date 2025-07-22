@@ -21,6 +21,8 @@ Repo contents:
   * RetroComp backplane **shall** support a slot for video output.
   * RetroComp backplane **shall** support a slot for audio output.
   * RetroComp backplane *should* support slots for additional modules such as storage, serial I/O, parallel I/O.
+  * RetroComp backplane **shall** supply power to system and all slots.
+  * RetroComp backplane **shall** supply bus block to system and all slots.
   * RetroComp backplane **shall** utilize 50 or fewer pins.
   * RetroComp backplane *should* utilize 40 or fewer pins.
 
