@@ -37,9 +37,10 @@ Repo contents:
   * KV module **shall** support a composite video output interface using a single RCA output jack.
     * KV module **shall** support at least 20 characters by 16 lines of video output.
     * KV module *should* support at least 40 characters by 24 lines of video output.
-    * KV module *should* support color video output if possible.
-  * KV module *should* support a VGA video output interface using a standard 9 pin DIN connector.
+    * KV module *should* support composite color video output if possible.
+  * KV module *should* support a VGA video output interface using a standard DB9 connector.
     * KV module *should* support a minimum resolution of 256 x 192 pixels.
+    * KV module *should* support VGA color video output if possible.
 
 * RetroComp system **shall** support an Audio module that provides audio output.
   * Audio module **shall** support analog audio output using RCA output jack.
@@ -55,26 +56,25 @@ Repo contents:
 
 * RetroComp system *should* support a Serial I/O module that provides serial input and output.
   * Serial I/O module **shall** support one serial interface connector as a 4 pin header.
-    * Serial I/O module **shall** support a TTL style serial interface.
-    * Serial I/O module *should* support an RS232 style serial interface.
-  * Serial I/O module *should* support at least one additional serial interface. 
+    * Serial I/O module **shall** support a TTL levels on this serial interface.
+  * Serial I/O module *should* support one RS232 style serial interface using a standard DB9 connector.
 
 * RetroComp system **shall** support a Parallel I/O module that provides parallel input and output.
   * Parallel I/O module **shall** support one parallel interface connector as an 8 pin header.
     * Parallel I/O module **shall** support TTL compatible levels on this interface.
   * Parallel I/O module *should* support at least one additional connector as an 8 pin header.
 
-* RetroComp code library **shall** support enough software elements to boot up and execute manually entered code.
-  * RetroComp **shall** include boot monitor software to initialize the system and provide basic monitor functions.
+* RetroComp SW code library **shall** support enough software elements to boot up and execute manually entered code.
+  * RetroComp SW **shall** include boot monitor software to initialize the system and provide basic monitor functions.
     * RetroComp boot monitor **shall** support ability to read all system memory, and write to volatile system memory.
     * RetroComp boot monitor **shall** support ability to load user programs into memory.
     * RetroComp boot monitor **shall** support ability to execute user programs.
-  * RetroComp **shall** include BASIC interpreter software to allow for minimal programmability of the system.
+  * RetroComp SW **shall** include BASIC interpreter software to allow for minimal programmability of the system.
     * RetroComp BASIC **shall** include support for integer and string variables.
     * RetroComp BASIC *should* include support for floating point variables.
-  * RetroComp *should* include assembler software to allow for low level programming of the system.
-  * RetroComp *should* include compiler software to allow for more advanced programming of the system.
-  * RetroComp *should* include disk operating software for managing storage of programs and data.
+  * RetroComp SW *should* include assembler software to allow for low level programming of the system.
+  * RetroComp SW *should* include compiler software to allow for more advanced programming of the system.
+  * RetroComp SW *should* include disk operating software for managing storage of programs and data on the storage module.
 
 
 ## High Level Design
