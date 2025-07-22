@@ -15,12 +15,12 @@ Repo contents:
 
 ## Requirements
 
-* RetroComp system **shall** support a backplane with at least four slots but no more than seven slots.
-  * RetroComp backplane **shall** support a dedicated slot for the CPU module (i.e. slot 0).
-  * RetroComp backplane **shall** support a slot for keyboard input.
-  * RetroComp backplane **shall** support a slot for video output.
-  * RetroComp backplane **shall** support a slot for audio output.
-  * RetroComp backplane *should* support slots for additional modules such as storage, serial I/O, parallel I/O.
+* RetroComp system **shall** support a backplane with multiple slots for plug-in modules.
+  * RetroComp backplane **shall** support at least four slots but no more than seven slots.
+    * RetroComp backplane **shall** support a dedicated slot for the CPU module (i.e. slot 0).
+    * RetroComp backplane **shall** support a slot for keyboard input and video output.
+    * RetroComp backplane **shall** support a slot for audio output.
+    * RetroComp backplane *should* support slots for additional modules such as storage, serial I/O, parallel I/O.
   * RetroComp backplane **shall** supply power to system and all slots.
   * RetroComp backplane **shall** supply bus clock to system and all slots.
   * RetroComp backplane **shall** utilize 50 or fewer pins.
@@ -65,8 +65,13 @@ Repo contents:
   * Parallel I/O module *should* support at least one additional connector as an 8 pin header.
 
 * RetroComp code library **shall** support enough software elements to boot up and execute manually entered code.
-  * RetroComp **shall** include a boot monitor software to initialize the system and provide basic monitor functions.
-  * RetroComp **shall** include a basic interpreter software to allow for minimal programmability of the system.
+  * RetroComp **shall** include boot monitor software to initialize the system and provide basic monitor functions.
+    * RetroComp boot monitor **shall** support ability to read all system memory, and write to volatile system memory.
+    * RetroComp boot monitor **shall** support ability to load user programs into memory.
+    * RetroComp boot monitor **shall** support ability to execute user programs.
+  * RetroComp **shall** include BASIC interpreter software to allow for minimal programmability of the system.
+    * RetroComp BASIC **shall** include support for integer and string variables.
+    * RetroComp BASIC *should* include support for floating point variables.
   * RetroComp *should* include assembler software to allow for low level programming of the system.
   * RetroComp *should* include compiler software to allow for more advanced programming of the system.
   * RetroComp *should* include disk operating software for managing storage of programs and data.
