@@ -64,7 +64,7 @@ Repo contents:
     * Parallel I/O module **shall** support TTL compatible levels on this interface.
   * Parallel I/O module *should* support at least one additional connector as an 8 pin header.
 
-* RetroComp SW code library **shall** support enough software elements to boot up and execute manually entered code.
+* RetroComp system **shall** support enough software elements to boot up and execute manually entered code.
   * RetroComp SW **shall** include boot monitor software to initialize the system and provide basic monitor functions.
     * RetroComp boot monitor **shall** support ability to read all system memory, and write to volatile system memory.
     * RetroComp boot monitor **shall** support ability to load user programs into memory.
