@@ -83,14 +83,6 @@ Repo contents:
 
 ![System](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-System-Block-Diagram.png?raw=true)
 
-### Modern Backplane Pin Assignments Diagram
-
-![Backplane Modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane.png?raw=true)
-
-### Traditional Backplane Pin Assignments Diagram
-
-![Backplane Traditional](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-alt-backplane.png?raw=true)
-
 ### HW Block Diagrams
 
 ![CPU module modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-CPU-Block-Diagram.png?raw=true)
@@ -100,6 +92,18 @@ Repo contents:
 ![Audio module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Audio-Block-Diagram.png?raw=true)
 
 ![Storage module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Storage-Block-Diagram.png?raw=true)
+
+![Serial module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Serial-Block-Diagram.png?raw=true)
+
+![Parallel module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Parallel-Block-Diagram.png?raw=true)
+
+### Modern Backplane Pin Assignments Diagram
+
+![Backplane Modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane.png?raw=true)
+
+### Traditional Backplane Pin Assignments Diagram
+
+![Backplane Traditional](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-alt-backplane.png?raw=true)
 
 ### SW Block Diagrams
 
