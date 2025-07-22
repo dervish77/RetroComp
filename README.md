@@ -1,5 +1,5 @@
 # RetroComp
-RetroComp Homebrew Computer Design 
+Retro Homebrew Computer Design 
 
 The RetroComp project specifies a design and implementation for a retro-style homebrew computer.  The design utilizes a backplane/motherboard approach similar in spirit to the old S-100 bus systems.  The backplane design supports some flexibility in the design of plugin modules for support of various kinds of peripherals.
 
@@ -44,18 +44,18 @@ Repo contents:
   * Audio module *should* support more than one "voice" of audio output if possible.
   * Audio module *should* support a direct speaker connection (i.e. powered audio output) for an 8 ohm speaker.
 
-* RetroComp Storage module *should* support a Storage module that provides program and data storage and retrieval.
+* RetroComp system *should* support a Storage module that provides program and data storage and retrieval.
   * Storage module **shall** support an EEPROM method of data storage.
   * Storage module *should* support an SD Card method of data storage.
   * Storage module *should* support a method for connecting an external storage device such as USB, IDE, or similar media.
 
-* RetroComp Serial I/O module *should* support a Serial I/O module that provides serial input and output.
+* RetroComp system *should* support a Serial I/O module that provides serial input and output.
   * Serial I/O module **shall** support one serial interface connector as a 4 pin header.
   * Serial I/O module **shall** support a TTL style serial interface.
   * Serial I/O module *should* support an RS232 style serial interface.
   * Serial I/O module *should* support at least one additional serial interface. 
 
-* RetroComp Parallel I/O module **shall** support a Parallel I/O module that provides parallel input and output.
+* RetroComp system **shall** support a Parallel I/O module that provides parallel input and output.
   * Parallel I/O module **shall** support one parallel interface connector as an 8 pin header.
   * Parallel I/O module *should* support at least one additional connector as an 8 pin header.
 
@@ -73,17 +73,17 @@ Repo contents:
 
 ![System](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-System-Block-Diagram.png?raw=true)
 
-### Traditional Backplane Pin Assignments Diagram
-
-![Backplane Traditional](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-alt-backplane.png?raw=true)
-
 ### Modern Backplane Pin Assignments Diagram
 
 ![Backplane Modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane.png?raw=true)
 
+### Traditional Backplane Pin Assignments Diagram
+
+![Backplane Traditional](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-alt-backplane.png?raw=true)
+
 ### HW Block Diagrams
 
-![CPU modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-CPU-Block-Diagram.png?raw=true)
+![CPU module modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-CPU-Block-Diagram.png?raw=true)
 
 ![KV module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-KV-Block-Diagram.png?raw=true)
 
