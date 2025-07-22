@@ -81,11 +81,17 @@ Repo contents:
 
 ![Backplane Modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane.png?raw=true)
 
-### HW Block Diagram
+### HW Block Diagrams
 
 ![CPU modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-CPU-Block-Diagram.png?raw=true)
 
-### SW Block Diagram
+![KV module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-KV-Block-Diagram.png?raw=true)
+
+![Audio module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Audio-Block-Diagram.png?raw=true)
+
+![Storage module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Storage-Block-Diagram.png?raw=true)
+
+### SW Block Diagrams
 
 TBD
 
