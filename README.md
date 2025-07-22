@@ -35,15 +35,17 @@ Repo contents:
 * RetroComp system **shall** support a KV module that provides keyboard input and video output.
   * KV module **shall** support keyboard input via a standard PS2 keyboard input connector.
   * KV module **shall** support a composite video output interface using a single RCA output jack.
-  * KV module **shall** support at least 20 characters by 16 lines of video output.
-  * KV module *should* support at least 40 characters by 24 lines of video output.
-  * KV module *should* support color video output if possible.
+    * KV module **shall** support at least 20 characters by 16 lines of video output.
+    * KV module *should* support at least 40 characters by 24 lines of video output.
+    * KV module *should* support color video output if possible.
+  * KV module *should* support a VGA video output interface using a standard 9 pin DIN connector.
+    * KV module *should* support a minimum resolution of 256 x 192 pixels.
 
 * RetroComp system **shall** support an Audio module that provides audio output.
   * Audio module **shall** support analog audio output using RCA output jack.
-  * Audio module **shall** support a 1 volt peak to peak output signal.
-  * Audio module **shall** support at least one "voice" of audio output.
-  * Audio module *should* support more than one "voice" of audio output if possible.
+    * Audio module **shall** support a 1 volt peak to peak output signal.
+    * Audio module **shall** support at least one "voice" of audio output.
+    * Audio module *should* support more than one "voice" of audio output if possible.
   * Audio module *should* support a direct speaker connection (i.e. powered audio output) for an 8 ohm speaker.
 
 * RetroComp system *should* support a Storage module that provides program and data storage and retrieval.
@@ -53,12 +55,13 @@ Repo contents:
 
 * RetroComp system *should* support a Serial I/O module that provides serial input and output.
   * Serial I/O module **shall** support one serial interface connector as a 4 pin header.
-  * Serial I/O module **shall** support a TTL style serial interface.
-  * Serial I/O module *should* support an RS232 style serial interface.
+    * Serial I/O module **shall** support a TTL style serial interface.
+    * Serial I/O module *should* support an RS232 style serial interface.
   * Serial I/O module *should* support at least one additional serial interface. 
 
 * RetroComp system **shall** support a Parallel I/O module that provides parallel input and output.
   * Parallel I/O module **shall** support one parallel interface connector as an 8 pin header.
+    * Parallel I/O module **shall** support TTL compatible levels on this interface.
   * Parallel I/O module *should* support at least one additional connector as an 8 pin header.
 
 * RetroComp code library **shall** support enough software elements to boot up and execute manually entered code.
