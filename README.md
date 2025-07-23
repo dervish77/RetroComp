@@ -85,6 +85,8 @@ Repo contents:
 
 ### HW Block Diagrams
 
+![Backplane](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Backplane-Block-Diagram.png?raw=true)
+
 ![CPU module modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-CPU-Block-Diagram.png?raw=true)
 
 ![KV module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-KV-Block-Diagram.png?raw=true)
