@@ -107,11 +107,11 @@ Repo contents:
 
 ### Modern Backplane Pin Assignments Diagram
 
-![Backplane Modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane.png?raw=true)
+![Backplane Modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane-modern.png?raw=true)
 
 ### Traditional Backplane Pin Assignments Diagram
 
-![Backplane Traditional](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-alt-backplane.png?raw=true)
+![Backplane Traditional](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane-traditional.png?raw=true)
 
 ### SW Block Diagrams
 
