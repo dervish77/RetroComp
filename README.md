@@ -33,6 +33,7 @@ Repo contents:
   * CPU module **shall** support methods for addressing and accessing every slot on the backplane.
 
 * RetroComp system **shall** support a KV module that provides keyboard input and video output.
+  * KV module **shall** support method for configuring which slot it is installed in.
   * KV module **shall** support keyboard input via a standard PS2 keyboard input connector.
   * KV module **shall** support a composite video output interface using a single RCA output jack.
     * KV module **shall** support at least 20 characters by 16 lines of video output.
@@ -43,23 +44,27 @@ Repo contents:
     * KV module *should* support VGA color video output if possible.
 
 * RetroComp system **shall** support an Audio module that provides audio output.
-  * Audio module **shall** support analog audio output using RCA output jack.
+   * Audio module **shall** support method for configuring which slot it is installed in.
+   * Audio module **shall** support analog audio output using RCA output jack.
     * Audio module **shall** support a 1 volt peak to peak output signal.
     * Audio module **shall** support at least one "voice" of audio output.
     * Audio module *should* support more than one "voice" of audio output if possible.
   * Audio module *should* support a direct speaker connection (i.e. powered audio output) for an 8 ohm speaker.
 
 * RetroComp system *should* support a Storage module that provides program and data storage and retrieval.
+  * Storage module **shall** support method for configuring which slot it is installed in.
   * Storage module **shall** support an EEPROM method of data storage.
   * Storage module *should* support an SD Card method of data storage.
   * Storage module *should* support a method for connecting an external storage device such as USB, IDE, or similar media.
 
 * RetroComp system *should* support a Serial I/O module that provides serial input and output.
+  * Serial I/O module **shall** support method for configuring which slot it is installed in.
   * Serial I/O module **shall** support one serial interface connector as a 4 pin header.
     * Serial I/O module **shall** support a TTL levels on this serial interface.
   * Serial I/O module *should* support one RS232 style serial interface using a standard DB9 connector.
 
 * RetroComp system **shall** support a Parallel I/O module that provides parallel input and output.
+  * Parallel I/O module **shall** support method for configuring which slot it is installed in.
   * Parallel I/O module **shall** support one parallel interface connector as an 8 pin header.
     * Parallel I/O module **shall** support TTL compatible levels on this interface.
   * Parallel I/O module *should* support at least one additional connector as an 8 pin header.
@@ -69,6 +74,7 @@ Repo contents:
     * RetroComp boot monitor **shall** support ability to read all system memory, and write to volatile system memory.
     * RetroComp boot monitor **shall** support ability to load user programs into memory.
     * RetroComp boot monitor **shall** support ability to execute user programs.
+    * RetroComp boot monitor *should* support ability to perform module discovery on startup.
   * RetroComp SW **shall** include BASIC interpreter software to allow for minimal programmability of the system.
     * RetroComp BASIC **shall** include support for integer and string variables.
     * RetroComp BASIC *should* include support for floating point variables.
