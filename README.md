@@ -112,6 +112,8 @@ Repo contents:
 
 ![Parallel module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Parallel-Block-Diagram.png?raw=true)
 
+![Analog module](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-Analog-Block-Diagram.png?raw=true)
+
 ### Modern Backplane Pin Assignments Diagram
 
 ![Backplane Modern](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-backplane-modern.png?raw=true)
@@ -160,6 +162,10 @@ The Serial I/O module provides support for at least one TTL or RS232 serial inte
 #### Parallel I/O Module
 
 The Parallel I/O module provides support for at least one 8-bit input/output port.
+
+#### Analog Module
+
+The Analog module provides support for analog inputs and outputs.
 
 ### Software
 
