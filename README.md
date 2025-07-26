@@ -20,7 +20,7 @@ Repo contents:
     * RetroComp backplane **shall** support a dedicated slot for the CPU module (i.e. slot 0).
     * RetroComp backplane **shall** support a slot for keyboard input and video output.
     * RetroComp backplane **shall** support a slot for audio output.
-    * RetroComp backplane *should* support slots for additional modules such as storage, serial I/O, parallel I/O.
+    * RetroComp backplane *should* support slots for additional modules such as analog, storage, serial I/O, parallel I/O.
   * RetroComp backplane **shall** supply power to system and all slots.
   * RetroComp backplane **shall** supply bus clock to system and all slots.
   * RetroComp backplane **shall** utilize 50 or fewer pins.
@@ -68,6 +68,13 @@ Repo contents:
   * Parallel I/O module **shall** support one parallel interface connector as an 8 pin header.
     * Parallel I/O module **shall** support TTL compatible levels on this interface.
   * Parallel I/O module *should* support at least one additional connector as an 8 pin header.
+
+* RetroComp system **shall** support an Analog module that provides analog input and output.
+  * Analog module **shall** support method for configuring which slot it is installed in.
+  * Analog module **shall** support one analog input that accepts inputs from 0 to 5 volts.
+  * Analog module *should* support one additional analog input (same input range).
+  * Analog module **shall** support one analog output that outputs a level from 0 to 5 volts.
+  * Analog module *should* support one additional analog output (same output ramge).
 
 * RetroComp system **shall** support enough software elements to boot up and execute manually entered code.
   * RetroComp SW **shall** include boot monitor software to initialize the system and provide basic monitor functions.
