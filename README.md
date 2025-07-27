@@ -124,7 +124,7 @@ Repo contents:
 
 ### SW Block Diagrams
 
-TBD
+![SW CPU](https://github.com/dervish77/RetroComp/blob/main/docs/RetroComp-SW-CPU-Block-Diagram.png?raw=true)
 
 
 ## Detailed Design
