@@ -85,9 +85,9 @@ Repo contents:
   * RetroComp SW **shall** include BASIC interpreter software to allow for minimal programmability of the system.
     * RetroComp BASIC **shall** include support for integer and string variables.
     * RetroComp BASIC *should* include support for floating point variables.
+  * RetroComp SW *should* include operating software for managing storage of programs and data on the storage module.
   * RetroComp SW *should* include assembler software to allow for low level programming of the system.
   * RetroComp SW *should* include compiler software to allow for more advanced programming of the system.
-  * RetroComp SW *should* include disk operating software for managing storage of programs and data on the storage module.
 
 
 ## High Level Design
@@ -171,20 +171,20 @@ The Analog module provides support for analog inputs and outputs.
 
 #### Boot Monitor
 
-tbd
+The Boot Monitor software initializes the system, performs module discovery, and provides support for basic manipulation of the system's memory and resources.
 
 #### Basic Interpreter
 
-tbd
+The Basic Interpreter software provides support for programming the system using a familiar and easy to learn programming language.
+
+#### Operating System
+
+The Operating System software provides support for managing storage and retrieval of data and/or programs on the system's storage module.
 
 #### Assembler
 
 tbd
 
 #### C Compiler
-
-tbd
-
-#### Disk Operating System
 
 tbd
