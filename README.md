@@ -86,8 +86,6 @@ Repo contents:
     * RetroComp BASIC **shall** include support for integer and string variables.
     * RetroComp BASIC *should* include support for floating point variables.
   * RetroComp SW *should* include operating software for managing storage of programs and data on the storage module.
-  * RetroComp SW *should* include assembler software to allow for low level programming of the system.
-  * RetroComp SW *should* include compiler software to allow for more advanced programming of the system.
 
 
 ## High Level Design
@@ -180,11 +178,3 @@ The Basic Interpreter software provides support for programming the system using
 #### Operating System
 
 The Operating System software provides support for managing storage and retrieval of data and/or programs on the system's storage module.
-
-#### Assembler
-
-tbd
-
-#### C Compiler
-
-tbd
