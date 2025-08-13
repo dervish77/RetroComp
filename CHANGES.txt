@@ -1,5 +1,55 @@
 CHANGES - RetroComp
 ===================
 
+07/27/2025
+- fixed error on analog diagram
+- cleanup on cpu diagram
+- cleanup on storage diagram
+- started SW design descriptions
+- added sw diagram for cpu module
+- modified sw cpu diagram to include basic and opsys
+- removed requirements for assembler and c
+- added refs for pi pico development
+
+07/25/2025
+- added requirements for slot config and module discovery
+- modified backplane diagram to reflect need for only one I2C and one SPI bus
+- renamed slotid to modid
+- expanded traditional backplane pinout to 50 pins
+- added requirements for an analog module
+- added analog module diagrams
+
+07/24/2025
+- added references for TVout and PS2
+- modified diagrams to reflect using arduino nano instead of uno
+
+07/22/2025
+- added serial and parallel module diagrams
+- modified audio, kv, and storage
+- added serial parallel
+- modified kv, audio, and storage with config blocks
+- fixed BusInt error in backplane diagram
+
+07/21/2025
+- added drawio version of diagrams and added initial cpu diagram
+- replaced system diagram ; added cpu diagram
+- moved obsolete files to 'old'
+- added diagrams for KV, audio, and storage modules
+- added kv, audio, storage diagrams
+- added reference for doing audio output on arduino
+- added speaker output to audio module
+- added ram/rom blocks to cpu diagram
+- added power and clock requirements to backplane
+
+07/18/2025
+- added more details about backplane design
+- fleshed out requirements ; added sw folder
+- added alt backplane pinout
+
+07/16/2025
+- added system block diagram
+- docs and diagrams in alternative formats
+- added image version of backplane pinout
+
 07/05/2025
 - originated

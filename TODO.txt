@@ -2,16 +2,22 @@ TODO - RetroComp
 ================
 
 - Design backplane interconnect
+-- designed modern and traditional pinouts
 
 - Design power supply
+-- not yet designed
 
 - Design CPU board
+-- designed initial version using Pi Pico
 
 - Design Video/Keyboard board
+-- designed initial version using Arduino Nano
 
 - Design Audio board
+-- designed initial version using Arduino Nano
 
-- Design Serial/GPIO board 
+- Design Storage board
 
+- Design Serial board 
 
-
+- Design Parallel board
